@@ -100,45 +100,45 @@ function keyTyped() {
 
 function mousePressed() {
   if( drawFunction === drawTitle ) {
-    if( (mouseX > 952) && (mouseX < 1038) && (mouseY > 621) && (mouseY < 640) ) {
+    if( (mouseX > width/2 + 285.5) && (mouseX < width/2 + 385.5) && (mouseY > height/2 + 262) && (mouseY < height/2 + 283) ) {
         drawFunction = drawRain;
     }
   }
   else if( drawFunction === drawRain ) {
-    if( (mouseX > 277) && (mouseX < 628) && (mouseY > 481) && (mouseY < 658) ) {
+    if( (mouseX > width/2 - 383.5) && (mouseX < width/2 - 29.5) && (mouseY > height/2 + 125) && (mouseY < height/2 + 303) ) {
         drawFunction = drawRiver;
     }
-    if( (mouseX > 730) && (mouseX < 940) && (mouseY > 492) && (mouseY < 648) ) {
+    if( (mouseX > width/2 + 68.5) && (mouseX < width/2 + 282.5) && (mouseY > height/2 + 135) && (mouseY < height/2 + 291) ) {
         drawFunction = drawSnow;
     }
   }
   else if( drawFunction === drawRiver ) {
-    if( (mouseX > 561) && (mouseX < 767) && (mouseY > 514) && (mouseY < 578) ) {
+    if( (mouseX > width/2 - 102.5) && (mouseX < width/2 + 105.5) && (mouseY > height/2 + 151) && (mouseY < height/2 + 221) ) {
         drawFunction = drawGround;
     }
   }
   else if( drawFunction === drawSnow ) {
-    if( (mouseX > 972) && (mouseX < 1040) && (mouseY > 624) && (mouseY < 638) ) {
+    if( (mouseX > width/2 + 308.5) && (mouseX < width/2 + 381.5) && (mouseY > height/2 + 263) && (mouseY < height/2 + 283) ) {
         drawFunction = drawGround;
     }
   }
   else if( drawFunction === drawGround ) {
-    if( (mouseX > 972) && (mouseX < 1040) && (mouseY > 624) && (mouseY < 638) ) {
+    if( (mouseX > width/2 + 308.5) && (mouseX < width/2 + 381.5) && (mouseY > height/2 + 263) && (mouseY < height/2 + 283) ) {
         drawFunction = drawOcean;
     }
   }
   else if( drawFunction === drawOcean ) {
-    if( (mouseX > 862) && (mouseX < 979) && (mouseY > 521) && (mouseY < 587) ) {
+    if( (mouseX > width/2 + 198.5) && (mouseX < width/2 + 314.5) && (mouseY > height/2 + 164) && (mouseY < height/2 + 230) ) {
         drawFunction = drawEvaporates;
     }
   }
   else if( drawFunction === drawEvaporates ) {
-    if( (mouseX > 553) && (mouseX < 967) && (mouseY > 112) && (mouseY < 358) ) {
+    if( (mouseX > width/2 - 107.5) && (mouseX < width/2 + 301.5) && (mouseY > height/2 - 245) && (mouseY < height/2 + 1) ) {
         drawFunction = drawClouds;
     }
   }
   else if( drawFunction === drawClouds ) {
-    if( (mouseX > 361) && (mouseX < 950) && (mouseY > 81) && (mouseY < 291) ) {
+    if( (mouseX > width/2 - 300.5) && (mouseX < width/2 + 289.5) && (mouseY > height/2 - 276) && (mouseY < height/2 - 66) ) {
         drawFunction = drawFinal;
     }
   }
