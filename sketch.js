@@ -15,15 +15,15 @@ var drawFunction;
 
 //Preload code
 function preload() {
-  images[0] = loadImage('assets/title.gif');
-  images[1] = loadImage('assets/rain.gif');
-  images[2] = loadImage('assets/river.gif');
-  images[3] = loadImage('assets/snow.gif');
-  images[4] = loadImage('assets/ground.gif');
-  images[5] = loadImage('assets/ocean.gif');
-  images[6] = loadImage('assets/evaporates.gif');
-  images[7] = loadImage('assets/clouds.gif');
-  images[8] = loadImage('assets/final.gif');
+  images[0] = loadImage('assets/title.png');
+  images[1] = loadImage('assets/rain.png');
+  images[2] = loadImage('assets/river.png');
+  images[3] = loadImage('assets/snow.png');
+  images[4] = loadImage('assets/ground.png');
+  images[5] = loadImage('assets/ocean.png');
+  images[6] = loadImage('assets/evaporates.png');
+  images[7] = loadImage('assets/clouds.png');
+  images[8] = loadImage('assets/final.png');
 }
 
 //Setup code
