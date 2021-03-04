@@ -98,6 +98,12 @@ function keyTyped() {
       }
     }
 
+function keyPressed() {
+      if( keyCode === UP_ARROW ) {
+        drawFunction = drawClouds;
+      }
+    }
+
 function mousePressed() {
   if( drawFunction === drawTitle ) {
     if( (mouseX > width/2 + 285.5) && (mouseX < width/2 + 385.5) && (mouseY > height/2 + 262) && (mouseY < height/2 + 283) ) {
@@ -130,11 +136,6 @@ function mousePressed() {
   else if( drawFunction === drawOcean ) {
     if( (mouseX > width/2 + 198.5) && (mouseX < width/2 + 314.5) && (mouseY > height/2 + 164) && (mouseY < height/2 + 230) ) {
         drawFunction = drawEvaporates;
-    }
-  }
-  else if( drawFunction === drawEvaporates ) {
-    if( (mouseX > width/2 - 107.5) && (mouseX < width/2 + 301.5) && (mouseY > height/2 - 245) && (mouseY < height/2 + 1) ) {
-        drawFunction = drawClouds;
     }
   }
   else if( drawFunction === drawClouds ) {

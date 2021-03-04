@@ -8,7 +8,7 @@ This is an interactive non-linear state machine with multiple user inputs utiliz
 
 ### Adobe XD
 
-View the wireframe [here](https://xd.adobe.com/view/4d463318-0f2a-4edc-a5d5-6d96e2df8766-1815/?fullscreen).
+View the wireframe [here](https://xd.adobe.com/view/277ff4b2-097d-4efa-acbf-11416d3e4dda-722c/?fullscreen).
 
 ### Technical Details
 
